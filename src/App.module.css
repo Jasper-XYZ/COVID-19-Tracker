@@ -1,0 +1,28 @@
+body {
+    background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 300px;
+    margin-top: 50px;
+}
+
+@media (max-width:770px){
+    .container {
+        margin:0 10%;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
